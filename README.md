@@ -1,0 +1,2 @@
+# bitcoin_hash_rate_culculate
+bitcoinのハッシュレートを計算してみた
