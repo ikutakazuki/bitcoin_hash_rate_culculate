@@ -2,7 +2,7 @@ import datetime
 import csv
 import time
 
-csv_header = ['height', 'utc_time', 'bits', 'hex_bits', 'exponent', 'coefficient', 'difficulty_target', 'bin_difficulty_target', 'computational_complexity', 'hash_rate_tera']
+csv_header = ['height', 'utc_time', 'bits', 'hex_bits', 'exponent', 'coefficient', 'target', 'bin_target', 'computational_complexity', 'hash_rate_tera']
 
 with open('bitcoin_blockheader.csv') as f:
     reader = csv.reader(f)
